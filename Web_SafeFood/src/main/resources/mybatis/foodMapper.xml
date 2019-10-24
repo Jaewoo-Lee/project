@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis.foodMapper">
+
+	<!-- selectAll 을 부르려면 풀네임 mybatis.foodMapper.selectAll 로 표현할 수 있다 -->
+	<select id="selectAll" resultType="food"> 
+		SELECT * FROM foods
+	</select>
+	<select id="searchGot" resultType="String"> 
+		SELECT * FROM atefood
+	</select>
+	<insert id="insert" parameterType="food">
+		INSERT INTO foods VALUES
+		(#{code}, #{name}, #{supportpereat}, #{calory}, #{carbo}, #{protein}, #{fat}, #{sugar}, #{natrium}, #{chole}, #{fattyacid}, #{transfat}, #{maker}, #{material},#{img})
+	</insert>
+	<insert id="foodChoo" parameterType="String">
+		INSERT INTO atefood VALUES (#{name})
+	</insert>
+	<select id="searchByName" resultType="food">
+		SELECT * FROM foods where name like #{name}
+	</select>
+	<select id="searchByCode" resultType="food">
+		SELECT * FROM foods where code = #{code}
+	</select>
+	<select id="searchByNutri" resultType="food">
+		SELECT * FROM foods where material like #{name}
+	</select>
+</mapper>
+
+<!-- mapper 파일 : sql 문 작성 -->
