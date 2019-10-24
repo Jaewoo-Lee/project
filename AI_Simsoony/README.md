@@ -8,12 +8,14 @@
 ![개요](/img_for_README/1.png)
 자연어 처리에서 Tokenizing 방식으로 Okt의 morph함수를 사용하였다.
 단어를 문법적으로 쪼개 주면서, 단어의 형태를 유지하는 함수이기 때문.
-``` ex) 그럴 거에요 -> 그러 + ㄹ + 거 + 에요   ( X )
-        그럴 거에요 -> 그럴 + 거 + 에요   ( ㅇ ) ```
+``` 
+ex) 그럴 거에요 -> 그러 + ㄹ + 거 + 에요   ( X )
+        그럴 거에요 -> 그럴 + 거 + 에요   ( ㅇ ) 
+```
 
 
 ## 사용한 모델
-![seq2seq](/img_for_README/2.png)
+![seq2seq](./img_for_README/2.png)
 시퀀스 투 시퀀스 모델은 챗봇, 번역기에 많이 사용되는 모델 
 Encoder와 Decoder, 두 개의 아키텍처로 구성되어 있고, Encoder에서 생성된 단어의 정보(Context Vector)를 기반으로 Decoder가 단어를 하나씩 출력되는 방식으로 동작한다
 
