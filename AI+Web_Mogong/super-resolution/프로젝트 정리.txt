@@ -1,0 +1,20 @@
+﻿preprocess.ipynb에서 데이터 전처리 실행.
+
+20만개의 178 x 218인물 사진을 전처리한다.
+
+openCV의 imread를 이용해 이미지를 읽어온다. color, grayscale 두가지 방법이 있는데 color가 default
+
+np.clip(array, min값, max값) array에있는 값들이 min보다 작으면 min값으로, max값보다 크면 max값으로 설정해주는 함수)
+
+2분의 1 스케일링 preprocess해서 트레이닝. 입력값 보다 작은 사이즈가 들어오면 나머지는 0으로해서 돌린다.
+
+입력 이미지의 최대 크기는 1024 x 1024까지로.
+
+이미지 패딩하기 참고 사이트
+https://jacegem.github.io/blog/2018/OpenCV-Python-Tutorials-07-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B8%B0%EB%B3%B8-%EC%9E%91%EC%97%85/
+
+Srcnn vdsr edsr 논문 읽어보기
+
+jupyter에서 되는게 local python으로 돌리면 안되는 오류 있었음.
+
+scikit-image버전이 loacl은 0.16.2였고 jupyter는 0.14.2였는데 이 때문이었음. 버전이 올라가면서 pyramid_reduce함수가 수정되었나봄
