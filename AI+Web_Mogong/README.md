@@ -19,9 +19,13 @@
 ## 프로젝트 구성
 
 ```
-super-resolution : AI 코드와 학습이 완료된 모델
 
-Frontend : 서비스의 프론트엔트 코드
+AI part : CNN + SubPixel  
+Web part : React.js + SpringBoot  
+Android App : Web-View  
+Publish part : AWS EC2 (Linux) <- .jar 파일 배포  
+
+
 ```
 
 > Frontend를 build하여 생성된 폴더를 SpringBoot 프로젝트 폴더 LastProject>src>main>resources>static에 넣어 실행시킨다.
