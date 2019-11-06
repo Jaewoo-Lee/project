@@ -1,4 +1,4 @@
-# ai-final
+﻿# ai-final
 
 
 
@@ -28,7 +28,11 @@ Frontend : 서비스의 프론트엔트 코드
 
 
 
-## 화면
+## 사용 예시 화면
 
+![1](https://user-images.githubusercontent.com/13237010/68270170-d44f7a80-009f-11ea-8bec-71e66406944f.PNG)
+
+
+![2](https://user-images.githubusercontent.com/13237010/68270169-d44f7a80-009f-11ea-8372-b36e61c7153f.PNG)
 
 
