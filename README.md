@@ -5,41 +5,41 @@
 ## AI_AgeRecognizing
 
 - 2017.10 ~ 2017.11
-- 5ÀÎ ÆÀ ÇÁ·ÎÁ§Æ®
-- ÀÎ¹°ÀÇ ¿¬·É´ë ÀÎ½ÄÇÏ´Â µö·¯´× ÇÁ·ÎÁ§Æ®
+- 5ì¸ íŒ€ í”„ë¡œì íŠ¸
+- ì¸ë¬¼ì˜ ì—°ë ¹ëŒ€ ì¸ì‹í•˜ëŠ” ë”¥ëŸ¬ë‹ í”„ë¡œì íŠ¸
 
 
 
 ## Web_SafeFood
 
 - 2019.04.29 ~ 2019.05.15
-- 2ÀÎ ÆÀ ÇÁ·ÎÁ§Æ®
-- Vue.js¸¦ ÀÌ¿ëÇÑ °³ÀÎ º° ¾ÈÀü ¸Ô°Å¸® °ü¸® À¥ ¼­ºñ½º
+- 2ì¸ íŒ€ í”„ë¡œì íŠ¸
+- Vue.jsë¥¼ ì´ìš©í•œ ê°œì¸ ë³„ ì•ˆì „ ë¨¹ê±°ë¦¬ ê´€ë¦¬ ì›¹ ì„œë¹„ìŠ¤
 
 
 
 ## Web_SE72N
 
-- 2019.07. ~ 2019.08.21
-- 5ÀÎ ÆÀ ÇÁ·ÎÁ§Æ®
-- PWA¸¦ Àû¿ëÇÑ Æ÷Æ®Æú¸®¿À °ü¸® À¥ ¼­ºñ½º
+- 2019.07.29 ~ 2019.08.21
+- 5ì¸ íŒ€ í”„ë¡œì íŠ¸
+- PWAë¥¼ ì ìš©í•œ í¬íŠ¸í´ë¦¬ì˜¤ ê´€ë¦¬ ì›¹ ì„œë¹„ìŠ¤
 
 
 
 ## AI_Simsoony
 
 - 2019.09.16 ~ 2019.10.09
-- 5ÀÎ ÆÀ ÇÁ·ÎÁ§Æ®
-- KoNLPy¸¦ »ç¿ëÇÏ¿© ÀÏ»óÇü ´ëÈ­°¡ °¡´ÉÇÑ slack Ãªº¿
+- 5ì¸ íŒ€ í”„ë¡œì íŠ¸
+- KoNLPyë¥¼ ì‚¬ìš©í•˜ì—¬ ì¼ìƒí˜• ëŒ€í™”ê°€ ê°€ëŠ¥í•œ slack ì±—ë´‡
 
 
 
 ## AI+Web_Mogong
 
 - 2019.10.14 ~ 2019.11.06
-- 6ÀÎ ÆÀ ÇÁ·ÎÁ§Æ®
+- 6ì¸ íŒ€ í”„ë¡œì íŠ¸
 - AI part : CNN + SubPixel
 - Web part : React.js + SpringBoot
 - Android App : Web-View
-- Publish part : AWS EC2 (Linux) <- .jar ÆÄÀÏ ¹èÆ÷
-- ÀúÇ°ÁúÀÇ »çÁøÀ» °íÇ°ÁúÀÇ »çÁøÀ¸·Î º¯È¯ÇÏ´Â À¥ ¼­ºñ½º
+- Publish part : AWS EC2 (Linux) <- .jar íŒŒì¼ ë°°í¬
+- ì €í’ˆì§ˆì˜ ì‚¬ì§„ì„ ê³ í’ˆì§ˆì˜ ì‚¬ì§„ìœ¼ë¡œ ë³€í™˜í•˜ëŠ” ì›¹ ì„œë¹„ìŠ¤
